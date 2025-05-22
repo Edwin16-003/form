@@ -1,3 +1,6 @@
+body{
+    justify-items: center;
+}
 #fill_in{
     height: 40px;
     width: 250px;
@@ -8,7 +11,7 @@
 #signin_form{
     background-color: goldenrod;
     height: 400px;
-    width: 80%;
+    width: 30%;
     border-radius: 20px;
     justify-items: center;
 }
