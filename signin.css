@@ -1,6 +1,7 @@
 body{
     justify-items: center;
 }
+/*css for the input elements*/
 #fill_in{
     height: 40px;
     width: 250px;
@@ -8,10 +9,11 @@ body{
     border: solid black 1px;
     margin: 15px;
 }
+/*css for the main div elements*/
 #signin_form{
     background-color: goldenrod;
     height: 400px;
-    width: 30%;
+    width: 80%;
     border-radius: 20px;
     justify-items: center;
 }
