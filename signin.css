@@ -2,3 +2,8 @@
     height: 30px;
     width: 25%;
 }
+#signin_form{
+    background-color: goldenrod;
+    height: 300px;
+    width: 100%;
+}
