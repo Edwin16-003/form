@@ -1,6 +1,9 @@
 #fill_in{
     height: 40px;
     width: 250px;
+    border-radius: 6px;
+    border: solid black 1px;
+    margin: 15px;
 }
 #signin_form{
     background-color: goldenrod;
