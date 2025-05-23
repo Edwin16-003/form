@@ -23,3 +23,40 @@ h1{
     padding-top: 16px;
     font-size: 34px;
 }
+/*Responsive css media queries*/
+@media (max-width:1400px) {
+    #signin_form{
+        min-height: 200px;
+        width:33%;
+    }
+    h1{
+        font-size: 28px;
+    }
+}
+@media (max-width:1000px) {
+    #signin_form{
+        min-height: 190px;
+        width:33%;
+    }
+    h1{
+        font-size: 22px;
+    }
+}
+@media (max-width:780px) {
+    #signin_form{
+        min-height: 180px;
+        width:33%;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+@media (max-width:600px) {
+    #signin_form{
+        min-height: 170px;
+        width:33%;
+    }
+    h1{
+        font-size: 19px;
+    }
+}
