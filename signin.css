@@ -1,5 +1,6 @@
 body{
     justify-items: center;
+    padding-top: 80px;
 }
 /*css for the input elements*/
 #fill_in{
@@ -23,6 +24,14 @@ h1{
     padding-top: 16px;
     font-size: 34px;
 }
+/*css for buttton element*/
+.btn{
+    margin-left: 100px;
+    height: 34px;
+    width: 28%;
+    border-radius: 10px;
+    border: solid black 1px;
+}
 /*Responsive css media queries*/
 @media (max-width:1400px) {
     #signin_form{
@@ -35,16 +44,25 @@ h1{
 }
 @media (max-width:1000px) {
     #signin_form{
-        min-height: 190px;
+        min-height: 210px;
         width:33%;
     }
     h1{
         font-size: 22px;
     }
 }
+@media (max-width:960px) {
+    #signin_form{
+        min-height: 220px;
+        width:33%;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
 @media (max-width:780px) {
     #signin_form{
-        min-height: 180px;
+        min-height: 230px;
         width:33%;
     }
     h1{
@@ -53,10 +71,20 @@ h1{
 }
 @media (max-width:600px) {
     #signin_form{
-        min-height: 170px;
-        width:33%;
+        min-height: 240px;
+        width:40%;
     }
     h1{
         font-size: 19px;
     }
 }
+@media (max-width:300px) {
+    #signin_form{
+        min-height: 250px;
+        width:40%;
+    }
+    h1{
+        font-size: 19px;
+    }
+}
+
