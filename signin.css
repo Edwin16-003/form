@@ -13,7 +13,7 @@ body{
 /*css for the main div elements*/
 #signin_form{
     background-color: goldenrod;
-    height: 400px;
+    height: 450px;
     width: 80%;
     border-radius: 20px;
     justify-items: center;
@@ -32,10 +32,18 @@ h1{
     border-radius: 10px;
     border: solid black 1px;
 }
+.checked{
+    display: flex;
+    gap: 30px;
+    padding-left: 4px;
+}
+.checkbox{
+    padding-top: 15px;
+}
 /*Responsive css media queries*/
 @media (max-width:1400px) {
     #signin_form{
-        min-height: 200px;
+        min-height: 300px;
         width:33%;
     }
     h1{
@@ -44,7 +52,7 @@ h1{
 }
 @media (max-width:1000px) {
     #signin_form{
-        min-height: 210px;
+        min-height: 310px;
         width:33%;
     }
     h1{
@@ -53,7 +61,7 @@ h1{
 }
 @media (max-width:960px) {
     #signin_form{
-        min-height: 220px;
+        min-height: 320px;
         width:33%;
     }
     h1{
@@ -62,7 +70,7 @@ h1{
 }
 @media (max-width:780px) {
     #signin_form{
-        min-height: 230px;
+        min-height: 330px;
         width:33%;
     }
     h1{
@@ -71,7 +79,7 @@ h1{
 }
 @media (max-width:600px) {
     #signin_form{
-        min-height: 240px;
+        min-height: 340px;
         width:40%;
     }
     h1{
@@ -80,7 +88,7 @@ h1{
 }
 @media (max-width:300px) {
     #signin_form{
-        min-height: 250px;
+        min-height: 350px;
         width:40%;
     }
     h1{
