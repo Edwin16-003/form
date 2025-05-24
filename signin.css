@@ -26,9 +26,9 @@ h1{
 }
 /*css for buttton element*/
 .btn{
-    margin-left: 100px;
-    height: 34px;
-    width: 28%;
+    margin-left: 99px;
+    height: 36px;
+    width: 38%;
     border-radius: 10px;
     border: solid black 1px;
 }
@@ -40,6 +40,9 @@ h1{
 }
 .checkbox{
     padding-top: 15px;
+}
+.option{
+    padding-left: 30px;
 }
 /*Responsive css media queries*/
 @media (max-width:1400px) {
