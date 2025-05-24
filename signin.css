@@ -32,6 +32,7 @@ h1{
     border-radius: 10px;
     border: solid black 1px;
 }
+/*css for checkbox and link*/
 .checked{
     display: flex;
     gap: 30px;
