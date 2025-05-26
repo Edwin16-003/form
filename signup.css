@@ -4,7 +4,7 @@ body{
 }
 #signup-form{
     position: relative;
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: goldenrod;
     height: 558px;
     width: 30%;
@@ -21,10 +21,15 @@ button{
     text-transform: uppercase;
 }
 #fill_in{
-    border-radius: 14px;
+    border-radius: 6px;
     height: 40px;
     width: 300px;
     font-size: medium;
     text-align: center;
     margin: 13px;
+}
+h1{
+    text-align: center;
+    padding-top: 16px;
+    font-size: 34px;
 }
