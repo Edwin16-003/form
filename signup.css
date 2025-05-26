@@ -20,28 +20,7 @@ button{
     border-radius: 10px;
     text-transform: uppercase;
 }
-#firstname{
-    border-radius: 14px;
-    height: 40px;
-    width: 300px;
-    font-size: medium;
-    text-align: center;
-}
-#lastname{
-    border-radius:14px ;
-    height: 40px;
-    width: 300px;
-    font-size: medium;
-    text-align: center;
-}
-#email{
-    border-radius: 14px;
-    height: 40px;
-    width: 300px;
-    font-size: medium;
-    text-align: center;
-}
-#userpassword{
+#fill_in{
     border-radius: 14px;
     height: 40px;
     width: 300px;
