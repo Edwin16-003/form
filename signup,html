@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <title>SignUp Form</title>
+        <link rel="stylesheet" href="signup.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </header>
+    <body>
+        <div id="signup-form">
+            <form action="form" method="post">
+               <p>Create your new account here.</p>
+               <h2>Sign Up</h2>
+               <div>            
+                 <input type="text" id="firstname" name="firstname" placeholder="Enter your firstname">
+               </div>
+               <br>
+               <div>              
+                 <input type="text" id="lastname" name="lastname" placeholder="Enter your lastname">
+               </div>
+               <br>
+               <div>               
+                 <input type="text" id="email" name="email" placeholder="Enter your email">
+               </div>
+               <br>
+               <div>
+                 <input type="password" id="userpassword" name="password" placeholder="Enter your password" maxlength="10">
+               </div>
+               <button type="submit">Sign Up</button>   
+               <p>Already have an account <a href="#">Sign In</a></p>        
+            </form>
+        </div>
+    </body>
+</html>
