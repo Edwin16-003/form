@@ -7,7 +7,7 @@ body{
     border-radius: 20px;
     background-color: goldenrod;
     height: 518px;
-    width: 30%;
+    width: 100%;
     text-align: center;
     font-size: 23px;
 }
@@ -32,4 +32,64 @@ h1{
     text-align: center;
     padding-top: 16px;
     font-size: 34px;
+}
+@media (max-width:1000px) {
+    #signup-form{
+    position: relative;
+    border-radius: 20px;
+    background-color: goldenrod;
+    height: 518px;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+}
+}
+@media (max-width:768px) {
+    #signup-form{
+    position: relative;
+    border-radius: 20px;
+    background-color: goldenrod;
+    height: 518px;
+    width: 100%;
+    text-align: center;
+    font-size: 23px;
+}
+}
+@media (max-width:628px) {
+    #signup-form{
+    position: relative;
+    border-radius: 20px;
+    background-color: goldenrod;
+    height: 518px;
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+}
+#fill_in{
+    border-radius: 6px;
+    height: 40px;
+    width: 300px;
+    font-size: medium;
+    text-align: center;
+    margin: 10px;
+}
+}
+@media (max-width:500px) {
+    #signup-form{
+    position: relative;
+    border-radius: 20px;
+    background-color: goldenrod;
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+#fill_in{
+    border-radius: 6px;
+    height: 40px;
+    width: 300px;
+    font-size: medium;
+    text-align: center;
+    margin: 8px;
+}
 }
