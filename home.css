@@ -49,3 +49,13 @@ label a{
     text-decoration: none;
     
 }
+.description_part{
+    background-color: blanchedalmond;
+    
+}
+.descript{
+    background-color: white;
+    min-width: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
