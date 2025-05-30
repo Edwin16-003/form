@@ -37,20 +37,25 @@ li a{
     text-decoration: none;
     border-radius: 10px;
 }
+li a:hover{
+    background-color: lightgray;
+
+}
 /*css for label and anchar element */
-label{
+.label{
     text-transform: none;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 label a{
     font-size: 40px;
     font-weight: 600;
-    font-style: italic;
     text-decoration: none;
+    color: black;
     
 }
 .description{
     justify-content: center;
+    align-items: center;
     margin-left: 100px;
 }
 .container{
